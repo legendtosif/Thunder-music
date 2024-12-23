@@ -37,7 +37,7 @@ def stream_markup_timer(_, chat_id, played, dur):
     elif 10 < umm < 20:
         bar = "━⚪━━━━━━━━━"
     elif 20 <= umm < 30:
-        bar = "🔥𝙏𝙝𝙪𝙣𝙙𝙚𝙧 𝗣𝗹𝗮𝘆𝗶𝗻𝗴"
+        bar = "🔥𝙍𝙤𝙨𝙚 𝗣𝗹𝗮𝘆𝗶𝗻𝗴"
     elif 30 <= umm < 40:
         bar = "━━━━⚪━━━━━━"
     elif 40 <= umm < 50:
@@ -61,15 +61,15 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱", url="https://t.me/ll_SEHZADA_143"
+                text="❰𝙊𝙬𝙣𝙚𝙧❱", url="https://t.me/legend_mickey"
             ),
             InlineKeyboardButton(
-                text="❰𝗔𝗹𝗹 𝗕𝗼𝘁❱", url="https://t.me/THUNDERDEVS"
+                text="❰𝗔𝗹𝗹 𝗕𝗼𝘁❱", url="https://t.me/THE_INCRICIBLE"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❰𝗣𝗥𝗢𝗠𝗢𝗧𝗜𝗢𝗡 𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘❱", url="https://t.me/ll_SEHZADA_143/51"
+                text="❰𝗣𝗥𝗢𝗠𝗢𝗧𝗜𝗢𝗡 𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘❱", url="https://t.me/The_Incricible/835"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -88,12 +88,12 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🔥𝙏𝙝𝙪𝙣𝙙𝙚𝙧 𝗣𝗹𝗮𝘆𝗶𝗻𝗴🚩", url="https://t.me/ll_SEHZADA_143",
+                text="🔥𝙍𝙤𝙨𝙚 𝗣𝗹𝗮𝘆𝗶𝗻𝗴🚩", url="https://t.me/LEGEND_MICKEY",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="𝙄 𝘼𝙢 𝙇𝙞𝙫𝙚 𝙉𝙤𝙬🎧", url="https://t.me/THUNDERDEVS",
+                text="𝙄 𝘼𝙢 𝙇𝙞𝙫𝙚 𝙉𝙤𝙬🎧", url="https://t.me/THE_INCRICIBLE",
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
