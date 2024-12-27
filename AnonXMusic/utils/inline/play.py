@@ -37,7 +37,7 @@ def stream_markup_timer(_, chat_id, played, dur):
     elif 10 < umm < 20:
         bar = "━⚪━━━━━━━━━"
     elif 20 <= umm < 30:
-        bar = "🔥𝙍𝙤𝙨𝙚 𝗣𝗹𝗮𝘆𝗶𝗻𝗴"
+        bar = "🔥𝙏𝙝𝙪𝙣𝙙𝙚𝙧 𝗣𝗹𝗮𝘆𝗶𝗻𝗴"
     elif 30 <= umm < 40:
         bar = "━━━━⚪━━━━━━"
     elif 40 <= umm < 50:
@@ -88,7 +88,7 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🔥𝙍𝙤𝙨𝙚 𝗣𝗹𝗮𝘆𝗶𝗻𝗴🚩", url="https://t.me/LEGEND_MICKEY",
+                text="🔥𝙏𝙝𝙪𝙣𝙙𝙚𝙧 𝗣𝗹𝗮𝘆𝗶𝗻𝗴🚩", url="https://t.me/LEGEND_MICKEY",
             ),
         ],
         [
